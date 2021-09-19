@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="{{url_for('static',filename='css/app.css')}}">
-    <title>about</title>
+    <title>Contact</title>
   </head>
   <body>
     {% extends "template.html" %}
@@ -14,12 +14,13 @@
     style="background-image: url('https://raw.githubusercontent.com/tylerkwallace/Images/master/1971371.jpg'); 
     height: 100vh">
       <div class="text-center my-5">
-        <h1>About Me</h1>
-        
-        <p class="lead">I am an excellent problem solver.</p>
-        <p>I believe that my greatest strength is not what I know, it is
-          my ability to learn and adapt. I know how to ask the right questions.
-        </p>
+        <h1>Get In Touch With Me</h1>
+        <ul>
+          <li><a href="mailto:wallace_tyler1@columbusstate.edu">Email</a></li>
+          <li><a href="tel:7062899250">Telephone</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>      
       </div>
     </section>
     {% endblock %}
